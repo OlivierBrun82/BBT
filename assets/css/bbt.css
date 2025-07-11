@@ -1,0 +1,50 @@
+/* couleur dégradé du fond de la page */
+.Background {
+background-image: linear-gradient(white, yellow, rgb(255, 98, 0));
+}
+
+a {
+/* on retire la couleur de lien par défaut et l'underline */
+    text-decoration: none;
+}
+
+/* couleur du titre, taille de la font et aligment et fond */
+.titre {
+    display: flex;
+    justify-content: center;   
+    color: rgb(255, 0, 0);
+    font-size: 8px;
+    background-color: linear-gradient(rgb 255, 255, 255,yellow);
+}
+
+/* image de l'avatar centré, avec un arrondi */
+.Avatar {
+    display: flex;
+    justify-content: center;
+    border-radius: 25%;
+    border-style:solid;
+    /* width: 100%;
+    height: 25%; */
+}
+
+/* tailles de fontes de la listes */
+ul {
+    font-size: 24px;
+}
+
+h2 {
+    display: flex;
+    justify-content: left;
+    font-size: 48px;
+}
+
+/* paragraphe descriptif */
+p {
+    font-size: 24px;
+}
+
+/* on met la mention légal au bas à droite */
+span {
+    display: flex;
+    justify-content:end;
+}
